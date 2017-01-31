@@ -1,0 +1,96 @@
+\begin{thebibliography}{11}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Kupper(2005)]{KupperAxel}
+A.~Kupper.
+\newblock \emph{Location-based Services: Fundamentals and Operation}.
+\newblock John Wiley \& Sons, 2005.
+\newblock ISBN 0470092319.
+
+\bibitem[Fluerasu et~al.(2010)Fluerasu, Vervisch-Picois, Boiero, Ghinamo,
+  Lovisolo, and Samama]{GPStransmitters}
+A.~Fluerasu, A.~Vervisch-Picois, G.~Boiero, G.~Ghinamo, P.~Lovisolo, and
+  N.~Samama.
+\newblock Indoor positioning using gps transmitters: Experimental results.
+\newblock In \emph{2010 International Conference on Indoor Positioning and
+  Indoor Navigation}, pages 1--9, Sept 2010.
+\newblock \doi{10.1109/IPIN.2010.5647647}.
+
+\bibitem[Faragher and Harle(2015)]{fingerprintingble}
+R.~Faragher and R.~Harle.
+\newblock Location fingerprinting with bluetooth low energy beacons.
+\newblock \emph{IEEE Journal on Selected Areas in Communications}, 33\penalty0
+  (11):\penalty0 2418--2428, Nov 2015.
+\newblock ISSN 0733-8716.
+\newblock \doi{10.1109/JSAC.2015.2430281}.
+
+\bibitem[Liu et~al.(2007)Liu, Darabi, Banerjee, and Liu]{SurveyofWireless}
+H.~Liu, H.~Darabi, P.~Banerjee, and J.~Liu.
+\newblock Survey of wireless indoor positioning techniques and systems.
+\newblock \emph{Trans. Sys. Man Cyber Part C}, 37\penalty0 (6):\penalty0
+  1067--1080, Nov. 2007.
+\newblock ISSN 1094-6977.
+\newblock \doi{10.1109/TSMCC.2007.905750}.
+\newblock URL \url{http://dx.doi.org/10.1109/TSMCC.2007.905750}.
+
+\bibitem[Mohammadi and Naserasadi(2011)]{surveylocation}
+M.~Mohammadi and A.~Naserasadi.
+\newblock A survey on location based services and positioning techniques.
+\newblock \emph{International Journal of Computer Applications}, 24\penalty0
+  (5):\penalty0 1–5, 2011.
+\newblock ISSN 0975 – 8887.
+
+\bibitem[Han et~al.(2007)Han, Choi, and Lim]{novelref}
+G.~Han, D.~Choi, and W.~Lim.
+\newblock A novel reference node selection algorithm based on trilateration for
+  indoor sensor networks.
+\newblock In \emph{7th IEEE International Conference on Computer and
+  Information Technology (CIT 2007)}, pages 1003--1008, Oct 2007.
+\newblock \doi{10.1109/CIT.2007.15}.
+
+\bibitem[Pavel~Kriz and Kozel(2016)]{ImprIndoorLocal}
+F.~M. Pavel~Kriz and T.~Kozel.
+\newblock Improving indoor localization using bluetooth low energy beacons.
+\newblock In \emph{Mobile Information Systems, vol. 2016, Article ID 2083094},
+  page~11, 2016.
+\newblock \doi{10.1155/2016/2083094}.
+
+\bibitem[Varsamou and Antonakopoulos(2014)]{smartanaibeacon}
+M.~Varsamou and T.~Antonakopoulos.
+\newblock A bluetooth smart analyzer in ibeacon networks.
+\newblock In \emph{2014 IEEE Fourth International Conference on Consumer
+  Electronics Berlin (ICCE-Berlin)}, pages 288--292, Sept 2014.
+\newblock \doi{10.1109/ICCE-Berlin.2014.7034291}.
+
+\bibitem[Gowrishankar et~al.(2015)Gowrishankar, Madhu, and
+  Basavaraju]{roleofble_altbeacon}
+S.~Gowrishankar, N.~Madhu, and T.~G. Basavaraju.
+\newblock Role of ble in proximity based automation of iot: A practical
+  approach.
+\newblock In \emph{2015 IEEE Recent Advances in Intelligent Computational
+  Systems (RAICS)}, pages 400--405, Dec 2015.
+\newblock \doi{10.1109/RAICS.2015.7488449}.
+
+\bibitem[Saraswat and Garg(2016)]{campus_survey}
+G.~Saraswat and V.~Garg.
+\newblock Beacon controlled campus surveillance.
+\newblock In \emph{2016 International Conference on Advances in Computing,
+  Communications and Informatics (ICACCI)}, pages 2582--2586, Sept 2016.
+\newblock \doi{10.1109/ICACCI.2016.7732446}.
+
+\bibitem[Statler et~al.(2016)Statler, Audenaert, Coombs, Gordon, Hendrix,
+  Kolodziej, Leddy, Parker, Proietti, Rotolo, Slette, Vanto, and
+  Young]{Statler}
+S.~Statler, A.~Audenaert, J.~Coombs, T.~M. Gordon, P.~Hendrix, K.~Kolodziej,
+  P.~Leddy, B.~Parker, M.~Proietti, R.~Rotolo, K.~Slette, J.~Vanto, and
+  D.~Young.
+\newblock \emph{Beacon Technologies: The Hitchhiker's Guide to the
+  Beacosystem}.
+\newblock Apress, Berkely, CA, USA, 1st edition, 2016.
+\newblock ISBN 1484218884, 9781484218884.
+
+\end{thebibliography}

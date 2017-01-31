@@ -1,0 +1,19 @@
+\nomenclatureentry{ru$\bf u$@[{$\bf u$}]\begingroup Velocity vector.\nomeqref {0}|nompageref}{v}
+\nomenclatureentry{ru$u,v,w$@[{$u,v,w$}]\begingroup Velocity Cartesian components.\nomeqref {0}|nompageref}{v}
+\nomenclatureentry{rp$p$@[{$p$}]\begingroup Pressure.\nomeqref {0}|nompageref}{v}
+\nomenclatureentry{rC$C_D$@[{$C_D$}]\begingroup Coefficient of drag.\nomeqref {0}|nompageref}{v}
+\nomenclatureentry{rC$C_L$@[{$C_L$}]\begingroup Coefficient of lift.\nomeqref {0}|nompageref}{v}
+\nomenclatureentry{rC$C_M$@[{$C_M$}]\begingroup Coefficient of moment.\nomeqref {0}|nompageref}{v}
+\nomenclatureentry{g$\rho$@[{$\rho$}]\begingroup Density.\nomeqref {0}|nompageref}{v}
+\nomenclatureentry{g$\alpha$@[{$\alpha$}]\begingroup Angle of attack.\nomeqref {0}|nompageref}{v}
+\nomenclatureentry{g$\beta$@[{$\beta$}]\begingroup Angle of side-slip.\nomeqref {0}|nompageref}{v}
+\nomenclatureentry{g$\mu$@[{$\mu$}]\begingroup Molecular viscosity coefficient.\nomeqref {0}|nompageref}{v}
+\nomenclatureentry{g$\kappa$@[{$\kappa$}]\begingroup Thermal conductivity coefficient.\nomeqref {0}|nompageref}{v}
+\nomenclatureentry{s$x,y,z$@[{$x,y,z$}]\begingroup Cartesian components.\nomeqref {0}|nompageref}{v}
+\nomenclatureentry{s$i,j,k$@[{$i,j,k$}]\begingroup Computational indexes.\nomeqref {0}|nompageref}{v}
+\nomenclatureentry{s$\infty$@[{$\infty$}]\begingroup Free-stream condition.\nomeqref {0}|nompageref}{v}
+\nomenclatureentry{sref@[{ref}]\begingroup Reference condition.\nomeqref {0}|nompageref}{v}
+\nomenclatureentry{s$n$@[{$n$}]\begingroup Normal component.\nomeqref {0}|nompageref}{v}
+\nomenclatureentry{tT@[{T}]\begingroup Transpose.\nomeqref {0}|nompageref}{v}
+\nomenclatureentry{t*@[{*}]\begingroup Adjoint.\nomeqref {0}|nompageref}{v}
+\nomenclatureentry{tGPS@[{GPS}]\begingroup Global Positioning System.\nomeqref {0}|nompageref}{v}

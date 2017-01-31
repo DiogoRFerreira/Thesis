@@ -1,0 +1,810 @@
+\ifglsentryexists{gps}{}%
+{%
+\gls@defglossaryentry{gps}%
+{%
+name={GPS},%
+sort={GPS},%
+type={acronym},%
+first={Global Positioning System\glsspace (GPS)},%
+firstplural={Global Positioning Systems\glsspace (GPSs)},%
+text={GPS},%
+plural={GPSs},%
+description={Global Positioning System},%
+descriptionplural={Global Positioning System\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Global Positioning System},%
+longplural={Global Positioning Systems},%
+short={GPS},%
+shortplural={GPSs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{wi-fi}{}%
+{%
+\gls@defglossaryentry{wi-fi}%
+{%
+name={Wi-Fi},%
+sort={Wi-Fi},%
+type={acronym},%
+first={Wireless Fidelity\glsspace (Wi-Fi)},%
+firstplural={Wireless Fidelitys\glsspace (Wi-Fis)},%
+text={Wi-Fi},%
+plural={Wi-Fis},%
+description={Wireless Fidelity},%
+descriptionplural={Wireless Fidelity\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Wireless Fidelity},%
+longplural={Wireless Fidelitys},%
+short={Wi-Fi},%
+shortplural={Wi-Fis},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{wlan}{}%
+{%
+\gls@defglossaryentry{wlan}%
+{%
+name={WLAN},%
+sort={WLAN},%
+type={acronym},%
+first={Wireless Local Area Network\glsspace (WLAN)},%
+firstplural={Wireless Local Area Networks\glsspace (WLANs)},%
+text={WLAN},%
+plural={WLANs},%
+description={Wireless Local Area Network},%
+descriptionplural={Wireless Local Area Network\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Wireless Local Area Network},%
+longplural={Wireless Local Area Networks},%
+short={WLAN},%
+shortplural={WLANs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{ieee}{}%
+{%
+\gls@defglossaryentry{ieee}%
+{%
+name={IEEE},%
+sort={IEEE},%
+type={acronym},%
+first={Institute of Electrical and Electronics Engineers\glsspace (IEEE)},%
+firstplural={Institute of Electrical and Electronics Engineerss\glsspace (IEEEs)},%
+text={IEEE},%
+plural={IEEEs},%
+description={Institute of Electrical and Electronics Engineers},%
+descriptionplural={Institute of Electrical and Electronics Engineers\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Institute of Electrical and Electronics Engineers},%
+longplural={Institute of Electrical and Electronics Engineerss},%
+short={IEEE},%
+shortplural={IEEEs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{ssid}{}%
+{%
+\gls@defglossaryentry{ssid}%
+{%
+name={SSID},%
+sort={SSID},%
+type={acronym},%
+first={Service Set Identifier\glsspace (SSID)},%
+firstplural={Service Set Identifiers\glsspace (SSIDs)},%
+text={SSID},%
+plural={SSIDs},%
+description={Service Set Identifier},%
+descriptionplural={Service Set Identifier\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Service Set Identifier},%
+longplural={Service Set Identifiers},%
+short={SSID},%
+shortplural={SSIDs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{ios}{}%
+{%
+\gls@defglossaryentry{ios}%
+{%
+name={iOS},%
+sort={iOS},%
+type={acronym},%
+first={iPhone Operating System\glsspace (iOS)},%
+firstplural={iPhone Operating Systems\glsspace (iOSs)},%
+text={iOS},%
+plural={iOSs},%
+description={iPhone Operating System},%
+descriptionplural={iPhone Operating System\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={iPhone Operating System},%
+longplural={iPhone Operating Systems},%
+short={iOS},%
+shortplural={iOSs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{rss}{}%
+{%
+\gls@defglossaryentry{rss}%
+{%
+name={RSS},%
+sort={RSS},%
+type={acronym},%
+first={Received Signal Strength\glsspace (RSS)},%
+firstplural={Received Signal Strengths\glsspace (RSSs)},%
+text={RSS},%
+plural={RSSs},%
+description={Received Signal Strength},%
+descriptionplural={Received Signal Strength\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Received Signal Strength},%
+longplural={Received Signal Strengths},%
+short={RSS},%
+shortplural={RSSs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{sig}{}%
+{%
+\gls@defglossaryentry{sig}%
+{%
+name={SIG},%
+sort={SIG},%
+type={acronym},%
+first={Special Interest Group\glsspace (SIG)},%
+firstplural={Special Interest Groups\glsspace (SIGs)},%
+text={SIG},%
+plural={SIGs},%
+description={Special Interest Group},%
+descriptionplural={Special Interest Group\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Special Interest Group},%
+longplural={Special Interest Groups},%
+short={SIG},%
+shortplural={SIGs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{ble}{}%
+{%
+\gls@defglossaryentry{ble}%
+{%
+name={BLE},%
+sort={BLE},%
+type={acronym},%
+first={Bluetooth Low Energy\glsspace (BLE)},%
+firstplural={Bluetooth Low Energys\glsspace (BLEs)},%
+text={BLE},%
+plural={BLEs},%
+description={Bluetooth Low Energy},%
+descriptionplural={Bluetooth Low Energy\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Bluetooth Low Energy},%
+longplural={Bluetooth Low Energys},%
+short={BLE},%
+shortplural={BLEs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{iot}{}%
+{%
+\gls@defglossaryentry{iot}%
+{%
+name={IoT},%
+sort={IoT},%
+type={acronym},%
+first={Internet of Things\glsspace (IoT)},%
+firstplural={Internet of Thingss\glsspace (IoTs)},%
+text={IoT},%
+plural={IoTs},%
+description={Internet of Things},%
+descriptionplural={Internet of Things\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Internet of Things},%
+longplural={Internet of Thingss},%
+short={IoT},%
+shortplural={IoTs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{qrcodes}{}%
+{%
+\gls@defglossaryentry{qrcodes}%
+{%
+name={QR Codes},%
+sort={QR Codes},%
+type={acronym},%
+first={Quick Response Codes\glsspace (QR Codes)},%
+firstplural={Quick Response Codess\glsspace (QR Codess)},%
+text={QR Codes},%
+plural={QR Codess},%
+description={Quick Response Codes},%
+descriptionplural={Quick Response Codes\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Quick Response Codes},%
+longplural={Quick Response Codess},%
+short={QR Codes},%
+shortplural={QR Codess},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{url}{}%
+{%
+\gls@defglossaryentry{url}%
+{%
+name={URL},%
+sort={URL},%
+type={acronym},%
+first={Uniform Resource Locator\glsspace (URL)},%
+firstplural={Uniform Resource Locators\glsspace (URLs)},%
+text={URL},%
+plural={URLs},%
+description={Uniform Resource Locator},%
+descriptionplural={Uniform Resource Locator\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Uniform Resource Locator},%
+longplural={Uniform Resource Locators},%
+short={URL},%
+shortplural={URLs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{nfc}{}%
+{%
+\gls@defglossaryentry{nfc}%
+{%
+name={NFC},%
+sort={NFC},%
+type={acronym},%
+first={Near-field Communication\glsspace (NFC)},%
+firstplural={Near-field Communications\glsspace (NFCs)},%
+text={NFC},%
+plural={NFCs},%
+description={Near-field Communication},%
+descriptionplural={Near-field Communication\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Near-field Communication},%
+longplural={Near-field Communications},%
+short={NFC},%
+shortplural={NFCs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{rfid}{}%
+{%
+\gls@defglossaryentry{rfid}%
+{%
+name={RFID},%
+sort={RFID},%
+type={acronym},%
+first={Radio-Frequency Identification\glsspace (RFID)},%
+firstplural={Radio-Frequency Identifications\glsspace (RFIDs)},%
+text={RFID},%
+plural={RFIDs},%
+description={Radio-Frequency Identification},%
+descriptionplural={Radio-Frequency Identification\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Radio-Frequency Identification},%
+longplural={Radio-Frequency Identifications},%
+short={RFID},%
+shortplural={RFIDs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{rssi}{}%
+{%
+\gls@defglossaryentry{rssi}%
+{%
+name={RSSI},%
+sort={RSSI},%
+type={acronym},%
+first={Radio Signal Strength Indicator\glsspace (RSSI)},%
+firstplural={Radio Signal Strength Indicators\glsspace (RSSIs)},%
+text={RSSI},%
+plural={RSSIs},%
+description={Radio Signal Strength Indicator},%
+descriptionplural={Radio Signal Strength Indicator\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Radio Signal Strength Indicator},%
+longplural={Radio Signal Strength Indicators},%
+short={RSSI},%
+shortplural={RSSIs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{aoa}{}%
+{%
+\gls@defglossaryentry{aoa}%
+{%
+name={AoA},%
+sort={AoA},%
+type={acronym},%
+first={Angle of Arrival\glsspace (AoA)},%
+firstplural={Angle of Arrivals\glsspace (AoAs)},%
+text={AoA},%
+plural={AoAs},%
+description={Angle of Arrival},%
+descriptionplural={Angle of Arrival\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Angle of Arrival},%
+longplural={Angle of Arrivals},%
+short={AoA},%
+shortplural={AoAs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{tof}{}%
+{%
+\gls@defglossaryentry{tof}%
+{%
+name={ToF},%
+sort={ToF},%
+type={acronym},%
+first={Time of Flight\glsspace (ToF)},%
+firstplural={Time of Flights\glsspace (ToFs)},%
+text={ToF},%
+plural={ToFs},%
+description={Time of Flight},%
+descriptionplural={Time of Flight\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Time of Flight},%
+longplural={Time of Flights},%
+short={ToF},%
+shortplural={ToFs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{rss}{}%
+{%
+\gls@defglossaryentry{rss}%
+{%
+name={RSS},%
+sort={RSS},%
+type={acronym},%
+first={Received Signal Strength\glsspace (RSS)},%
+firstplural={Received Signal Strengths\glsspace (RSSs)},%
+text={RSS},%
+plural={RSSs},%
+description={Received Signal Strength},%
+descriptionplural={Received Signal Strength\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Received Signal Strength},%
+longplural={Received Signal Strengths},%
+short={RSS},%
+shortplural={RSSs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{uuid}{}%
+{%
+\gls@defglossaryentry{uuid}%
+{%
+name={UUID},%
+sort={UUID},%
+type={acronym},%
+first={Universally Unique Identifier\glsspace (UUID)},%
+firstplural={Universally Unique Identifiers\glsspace (UUIDs)},%
+text={UUID},%
+plural={UUIDs},%
+description={Universally Unique Identifier},%
+descriptionplural={Universally Unique Identifier\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Universally Unique Identifier},%
+longplural={Universally Unique Identifiers},%
+short={UUID},%
+shortplural={UUIDs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{pdu}{}%
+{%
+\gls@defglossaryentry{pdu}%
+{%
+name={PDU},%
+sort={PDU},%
+type={acronym},%
+first={Protocol Data Unit\glsspace (PDU)},%
+firstplural={Protocol Data Units\glsspace (PDUs)},%
+text={PDU},%
+plural={PDUs},%
+description={Protocol Data Unit},%
+descriptionplural={Protocol Data Unit\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Protocol Data Unit},%
+longplural={Protocol Data Units},%
+short={PDU},%
+shortplural={PDUs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{url}{}%
+{%
+\gls@defglossaryentry{url}%
+{%
+name={URL},%
+sort={URL},%
+type={acronym},%
+first={Uniform Resource Locator\glsspace (URL)},%
+firstplural={Uniform Resource Locators\glsspace (URLs)},%
+text={URL},%
+plural={URLs},%
+description={Uniform Resource Locator},%
+descriptionplural={Uniform Resource Locator\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Uniform Resource Locator},%
+longplural={Uniform Resource Locators},%
+short={URL},%
+shortplural={URLs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{api}{}%
+{%
+\gls@defglossaryentry{api}%
+{%
+name={API},%
+sort={API},%
+type={acronym},%
+first={Application Programming Interface\glsspace (API)},%
+firstplural={Application Programming Interfaces\glsspace (APIs)},%
+text={API},%
+plural={APIs},%
+description={Application Programming Interface},%
+descriptionplural={Application Programming Interface\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Application Programming Interface},%
+longplural={Application Programming Interfaces},%
+short={API},%
+shortplural={APIs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{sdk}{}%
+{%
+\gls@defglossaryentry{sdk}%
+{%
+name={SDK},%
+sort={SDK},%
+type={acronym},%
+first={Software Development Kit\glsspace (SDK)},%
+firstplural={Software Development Kits\glsspace (SDKs)},%
+text={SDK},%
+plural={SDKs},%
+description={Software Development Kit},%
+descriptionplural={Software Development Kit\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Software Development Kit},%
+longplural={Software Development Kits},%
+short={SDK},%
+shortplural={SDKs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{uri}{}%
+{%
+\gls@defglossaryentry{uri}%
+{%
+name={URI},%
+sort={URI},%
+type={acronym},%
+first={Uniform Resource Identifier\glsspace (URI)},%
+firstplural={Uniform Resource Identifiers\glsspace (URIs)},%
+text={URI},%
+plural={URIs},%
+description={Uniform Resource Identifier},%
+descriptionplural={Uniform Resource Identifier\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Uniform Resource Identifier},%
+longplural={Uniform Resource Identifiers},%
+short={URI},%
+shortplural={URIs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{ceo}{}%
+{%
+\gls@defglossaryentry{ceo}%
+{%
+name={CEO},%
+sort={CEO},%
+type={acronym},%
+first={Chief Executive Officer\glsspace (CEO)},%
+firstplural={Chief Executive Officers\glsspace (CEOs)},%
+text={CEO},%
+plural={CEOs},%
+description={Chief Executive Officer},%
+descriptionplural={Chief Executive Officer\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Chief Executive Officer},%
+longplural={Chief Executive Officers},%
+short={CEO},%
+shortplural={CEOs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{ist}{}%
+{%
+\gls@defglossaryentry{ist}%
+{%
+name={IST},%
+sort={IST},%
+type={acronym},%
+first={Instituto Superior T\IeC {\'e}cnico\glsspace (IST)},%
+firstplural={Instituto Superior T\IeC {\'e}cnicos\glsspace (ISTs)},%
+text={IST},%
+plural={ISTs},%
+description={Instituto Superior Técnico},%
+descriptionplural={Instituto Superior Técnico\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Instituto Superior T\IeC {\'e}cnico},%
+longplural={Instituto Superior T\IeC {\'e}cnicos},%
+short={IST},%
+shortplural={ISTs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{tx}{}%
+{%
+\gls@defglossaryentry{tx}%
+{%
+name={TX},%
+sort={TX},%
+type={acronym},%
+first={Transmission\glsspace (TX)},%
+firstplural={Transmissions\glsspace (TXs)},%
+text={TX},%
+plural={TXs},%
+description={Transmission},%
+descriptionplural={Transmission\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Transmission},%
+longplural={Transmissions},%
+short={TX},%
+shortplural={TXs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
