@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Positioning System</string>
+
+    <string-array name="titles">
+        <item>Facebook</item>
+        <item>Instagram</item>
+        <item>Twitter</item>
+        <item>Google</item>
+    </string-array>
+
+    <string-array name="description">
+        <item>Facebook Description</item>
+        <item>Instagram Description</item>
+        <item>Twitter Description</item>
+        <item>Google Description</item>
+    </string-array>
+
+</resources>
