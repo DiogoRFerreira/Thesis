@@ -12,9 +12,11 @@ public class WKNN extends KNN{
 	}
 
 	public void calculateWeights(double[] kvector){
+		weightsum = 0;
+		kweight = new double[k];
 		//Calculate weight
 		for(int i=0;i<k;i++){
-			if(kvector[k-1]!= kvector[0]){
+			if(kvector[k-1]!=kvector[0]){
 				kweight[i]=(kvector[k-1]-kvector[i])/(kvector[k-1]-kvector[0]);
 				weightsum += kweight[i];
 			}else{

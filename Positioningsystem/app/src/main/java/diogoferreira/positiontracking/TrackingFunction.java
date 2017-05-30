@@ -57,8 +57,8 @@ public class TrackingFunction {
 			H = new Array2DRowRealMatrix(new double[][] {{ 1, 0},{0,1}});
 			//Inicial position estimate (x,y)
 			x = new ArrayRealVector(new double[] { 0, 0 });
-			Q = new Array2DRowRealMatrix(new double[][] {{0.0001, 0},{ 0, 0.0001}});
-			R = new Array2DRowRealMatrix(new double[][] {{0.1, 0},{ 0, 0.1}});
+			Q = new Array2DRowRealMatrix(new double[][] {{0.1, 0},{ 0, 0.1}});
+			R = new Array2DRowRealMatrix(new double[][] {{1, 0},{ 0, 1}});
 			//matriz covariancia inicial - se nao forem conhecidas colocar um valor alto na diagonal
 			P0 = new Array2DRowRealMatrix(new double[][] { { 100, 0 }, { 0, 100 } });
 		//}
@@ -92,25 +92,19 @@ public class TrackingFunction {
 	}*/
 	
 	
-	/*
+	
 	public static void main(String[] args){
-		TrackingFunction object = new TrackingFunction(2);
+		TrackingFunction object = new TrackingFunction();
 		double[] position;
 		for(int i=0;i<100;i++){
-			if(i<25){
-				position = object.calculatePosition((i*2)/10, 0);
-			}else if(i<50 && i >=25){
-				position = object.calculatePosition(25, i-25);
-			}else if(i<75 && i >=50){
-				position = object.calculatePosition((25+i-50)/10, 25);
+			if(i==50){
+				position = object.calculatePosition(100, 25);
 			}else{
-				position = object.calculatePosition(100, 25+i-75);
-			}if(i==10){
-				position = object.calculatePosition(4, 25);
+				position = object.calculatePosition(i, 25);
 			}
-			System.out.println("Iteration:"+i+" x:"+position[0]+"/"+(double)(i*2)/10+" y:"+position[1]);
+			System.out.println("Iteration:"+i+" x:"+position[0]+"/"+" y:"+position[1]);
 		}
-		
+		/*
 		TrackingFunction object2 = new TrackingFunction(4);
 		double[] position2;
 		for(int i=0;i<100;i++){
@@ -123,6 +117,6 @@ public class TrackingFunction {
 				position2 = object2.calculatePosition(30000, 100*i,0.1,0.1);
 			}
 			System.out.println("Iteration:"+i+" x:"+position2[0]+" y:"+position2[1]+" vx:"+position2[2]+" vy:"+position2[3]);
-		}
-	}*/
+		}*/
+	}
 }

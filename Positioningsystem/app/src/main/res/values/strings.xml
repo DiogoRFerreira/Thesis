@@ -2,17 +2,19 @@
     <string name="app_name">Positioning System</string>
 
     <string-array name="titles">
-        <item>Facebook</item>
-        <item>Instagram</item>
-        <item>Twitter</item>
-        <item>Google</item>
+        <item>WC</item>
+        <item>Students Room</item>
+        <item>Scientific Poster</item>
+        <item>CAD Computer Server</item>
+        <item>First Floor</item>
     </string-array>
 
     <string-array name="description">
-        <item>Facebook Description</item>
-        <item>Instagram Description</item>
-        <item>Twitter Description</item>
-        <item>Google Description</item>
+        <item>Bathroom, Room Number: 122</item>
+        <item>Students Room with a beatiful view to the nearest roundabout, Room Number: 138</item>
+        <item>XFIP Conference on very large scale integration Poster, Corridor</item>
+        <item>CAD Computer Server (IP:196.193.38.150) inside Students Room</item>
+        <item>Embedded Electronic Systems and Computing Systems and Communication Networks</item>
     </string-array>
 
 </resources>

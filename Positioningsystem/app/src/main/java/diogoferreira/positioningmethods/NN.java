@@ -13,7 +13,7 @@ public class NN {
 		for(int i=0;i<function.offlinerssi.length;i++){
 			double sum = 0;
 			for(int j=0;j<function.rssi.length;j++){
-				if(function.rssi[j]!=0) sum += Math.pow(function.rssi[j]-function.offlinerssi[i][j],2); 
+				if(function.rssi[j]!=0 &&function.offlinerssi[i][j]!=0) sum += Math.pow(function.rssi[j]-function.offlinerssi[i][j],2); 
 			}
 			vector[i] = Math.sqrt(sum);
 		}

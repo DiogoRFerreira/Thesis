@@ -22,7 +22,7 @@ public class Listitems extends AppCompatActivity {
     ListView list;
     String[] titles;
     String[] description;
-    int[] imgs =  {R.drawable.facebook,R.drawable.instagram, R.drawable.twitter, R.drawable.google};
+    int[] imgs =  {drawable.wc, drawable.students, drawable.poster, drawable.computersv, drawable.first};
 
     @Override
     protected void onPause() {

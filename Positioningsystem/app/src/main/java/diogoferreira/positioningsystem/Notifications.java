@@ -46,12 +46,13 @@ public class Notifications extends Service {
             synchronized (this) {
                 Vibrator v = (Vibrator)getApplicationContext().getSystemService(Context.VIBRATOR_SERVICE);
                 // Vibrate for 500 milliseconds
-                v.vibrate(500);
+                v.vibrate(400);
 
                 NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(getApplicationContext());
-                mBuilder.setSmallIcon(R.drawable.inescidwhite);
-                mBuilder.setContentTitle("Item detected!");
+                mBuilder.setSmallIcon(R.mipmap.inescidwhite);
+                mBuilder.setContentTitle("New item found!");
                 mBuilder.setContentText("at (" + Database.position[0] + ", " + Database.position[1]+")");
+
 
                 Intent resultIntent = new Intent(getApplicationContext(), Item.class);
                 resultIntent.putExtra("position", position_item);

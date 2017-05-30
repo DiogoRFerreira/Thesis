@@ -12,11 +12,13 @@ import android.content.IntentFilter;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.net.Uri;
+import android.os.Environment;
 import android.os.Handler;
 import android.support.v4.content.LocalBroadcastManager;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -24,8 +26,8 @@ import android.widget.TextView;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.sql.Timestamp;
 import java.util.ListIterator;
+
 
 public class Entryactivity extends AppCompatActivity {
 
@@ -48,7 +50,7 @@ public class Entryactivity extends AppCompatActivity {
 
     //Position calculation
     private Handler positionHandler = new Handler();
-    private int position_calculation_interval = 1000;
+    private int position_calculation_interval = 2000;
 
     LocalBroadcastManager mLocalBroadcastManager;
     BroadcastReceiver mBroadcastReceiver = new BroadcastReceiver() {
@@ -82,7 +84,7 @@ public class Entryactivity extends AppCompatActivity {
     protected void onPause() {
         super.onPause();
 
-        /*
+
         String state = Environment.getExternalStorageState();
         if (Environment.MEDIA_MOUNTED.equals(state)) {
             try{
@@ -102,23 +104,19 @@ public class Entryactivity extends AppCompatActivity {
                     writer.flush();
                 }
                 writer.close();
+                Database.rssihistory.clear();
 
             }catch( IOException e){
                 e.printStackTrace();
             }
-        }*/
-
+        }
+        /*
         //Check if position history has values
-        //if(!Database.positionhistory.isEmpty()){
-            double[] temp = new double[3];
-            temp[0]= 2.3;
-            temp[0]= 2.3;
-            temp[0]= 23564645;
-            Database.positionhistory.add(temp);
+        if(!Database.positionhistory.isEmpty()){
             Intent intent =  new Intent(this, BackEndConnection.class);
             intent.putExtra("OPTION",2);
             startService(intent);
-        //}
+        }*/
     }
 
     @Override
@@ -203,7 +201,8 @@ public class Entryactivity extends AppCompatActivity {
     {
         @Override
         public void run() {
-            /*
+
+            Log.d("RSSI: ",Double.toString(Database.timerssireceived[0]));
             double[] rsshistory = new double[11];
             rsshistory[0]=Database.timerssireceived[0];
             rsshistory[1]=Database.timerssireceived[1];
@@ -215,32 +214,32 @@ public class Entryactivity extends AppCompatActivity {
             rsshistory[7]=Database.timerssireceived[7];
             rsshistory[8]=Database.timerssireceived[8];
             rsshistory[9]=Database.timerssireceived[9];
-            rsshistory[10]=(double) System.currentTimeMillis();
+            rsshistory[10]= (double) System.currentTimeMillis();
             Database.rssihistory.addLast(rsshistory);
-            */
+            /*
 
             //Fingerprinting
             Database.fingerprint.setRssi(Database.timerssireceived);
             double[] eposition = Database.ksolver.estimatePosition();
 
             //Kalman Filter
-            double[] kposition = Database.tracking.calculatePosition(eposition[0],eposition[1]);
+            double[] kposition = Database.tracking.calculatePosition(eposition[0], eposition[1]);
 
             Database.position = kposition;
-            double[] history = new double[3];
-            history[0]=kposition[0];
-            history[1]=kposition[1];
-            history[2]=(double) System.currentTimeMillis();
-            Database.positionhistory.addLast(history);
+            double[] temp = new double[3];
+            temp[0]=kposition[0];
+            temp[1]=kposition[1];
+            temp[2]=(double) System.currentTimeMillis();
+            Database.positionhistory.addLast(temp);
 
             //Se a posicao for interessante entao meter o int no item e lancar a notificacao
             //so da notificacao se for a primeira vez nesta posicao deps ja na da mais
-            if(Database.position[1] == 0.8){
+            if(Database.position[1] > 1){
                 Database.item = 2;
                 Intent intent =  new Intent(Entryactivity.this, Notifications.class);
                 startService(intent);
             }
-
+            */
             Database.timerssireceived = new double[Database.number_beacons];
             Database.timenumberbeacons = new int[Database.number_beacons];
 
@@ -319,9 +318,8 @@ public class Entryactivity extends AppCompatActivity {
                 //BeaconDetected beacondetected = new BeaconDetected(beacon, System.currentTimeMillis(), rssi);
                 if(major==1 &&  minor>0 && minor<11) {
                     Database.latestrssireceived[minor - 1] = rssi;
-                    Database.timerssireceived[minor - 1] = (rssi + Database.timerssireceived[minor - 1] * Database.timenumberbeacons[minor - 1]) / Database.timenumberbeacons[minor - 1] + 1;
+                    Database.timerssireceived[minor - 1] = (rssi + Database.timerssireceived[minor - 1] * Database.timenumberbeacons[minor - 1]) /( Database.timenumberbeacons[minor - 1] + 1);
                     Database.timenumberbeacons[minor - 1]++;
-
                     if (!firstscan) {
                         positionHandler.postDelayed(positionCalculus, position_calculation_interval);
                         firstscan = true;

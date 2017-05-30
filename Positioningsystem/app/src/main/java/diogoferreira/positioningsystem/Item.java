@@ -8,16 +8,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import static diogoferreira.positioningsystem.R.drawable.facebook;
-import static diogoferreira.positioningsystem.R.drawable.google;
-import static diogoferreira.positioningsystem.R.drawable.instagram;
-import static diogoferreira.positioningsystem.R.drawable.twitter;
 
 public class Item extends AppCompatActivity {
 
     String[] titles;
     String[] description;
-    int[] imgs = {facebook,instagram,twitter,google};
+    int[] imgs = {R.drawable.wc, R.drawable.students, R.drawable.poster, R.drawable.computersv, R.drawable.first};
 
     ImageView image;
     TextView text;
